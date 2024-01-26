@@ -7,6 +7,7 @@ import Service from "./nav/Service"
 import Counter from "./Hooks/Counter"
 import Effect from "./Hooks/Effect"
 import Reducer from "./Hooks/Reducer"
+import Callback from "./Hooks/Callback"
 export default function App(){
   return(
     <BrowserRouter>
@@ -19,6 +20,7 @@ export default function App(){
         <Route path="counter" element={<Counter/>}/>
         <Route path="effect" element={<Effect/>}/>
         <Route path="reducer" element={<Reducer/>}/>
+        <Route path="callback" element={<Callback/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
