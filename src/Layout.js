@@ -18,6 +18,15 @@ export default function Layout() {
                 <li>
                     <Link to="/service">Service</Link>
                 </li>
+                <li>
+                    <Link to="/counter">Counter</Link>
+                </li>
+                <li>
+                    <Link to="/effect">Effect</Link>
+                </li>
+                <li>
+                    <Link to="/reducer">Reducer</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/>

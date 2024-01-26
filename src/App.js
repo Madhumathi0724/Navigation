@@ -4,6 +4,9 @@ import Home from "./nav/Home"
 import About from "./nav/About"
 import Contact from "./nav/Contact"
 import Service from "./nav/Service"
+import Counter from "./Hooks/Counter"
+import Effect from "./Hooks/Effect"
+import Reducer from "./Hooks/Reducer"
 export default function App(){
   return(
     <BrowserRouter>
@@ -13,6 +16,9 @@ export default function App(){
         <Route path="about" element={<About/>}/>
         <Route path="contact" element={<Contact/>}/>
         <Route path="service" element={<Service/>}/>
+        <Route path="counter" element={<Counter/>}/>
+        <Route path="effect" element={<Effect/>}/>
+        <Route path="reducer" element={<Reducer/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
